@@ -1,0 +1,122 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: url(/assets/foods2.jpg) center/cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.content{
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+    }
+    .content p{
+        margin: auto;
+        color: white;
+        font-size: 40PX;
+    }
+
+     nav ol li{
+        display: inline;
+        padding: 20px 30px;
+        margin-right: 80px;
+        color:white;
+        margin-top: 20px 1px;
+    }
+    nav ol li:hover{
+        color: orangered;
+    }
+    .icon{
+        margin-right: 50px;
+        padding: 20px 30px;
+        color:white;
+    }
+    .icon a{
+        text-decoration: none;
+        color:white;
+        text-transform: capitalize;
+        border: 2px solid transparent;
+        border-radius: 40px;
+        padding: 10px 30px;
+        background-color: orangered;
+    }
+    .main{
+        position: relative;
+        top: 30%;
+        left: 10%;
+        transform: translateX(-20px);
+    }
+    .main h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    font-size: 80px;
+    font-weight: bolder;
+  
+    }
+    .main a{
+       
+        text-decoration: none;
+        color:white;
+        text-transform: capitalize;
+        border: 2px solid transparent;
+        border-radius: 40px;
+        padding: 10px 30px;
+        background-color: orangered;
+        margin-top: 90px;
+    }
+   
+
+
+
+
+
+
+    .container2{
+        width: 80%;
+        height: 100vh;
+        background-color: #fff;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+       
+       
+        
+    }
+     .things{
+        width: 600px;
+        height: 200px;
+        background-color: black;
+        margin: auto;
+        display: flex;
+    }
+
+
+.on1 img{
+    border-radius:100px;
+  }
+   .container3{
+        width: 80%;
+        height: 100vh;
+        background-color: #fff;
+        margin: auto;
+   }
+  
+   .text h4{
+    width: 10%;
+    margin: auto;
+   }
+   nav li{
+    display: inline;
+    width: 200px;
+    margin:auto;
+   
+   }
+   
+  
+   
