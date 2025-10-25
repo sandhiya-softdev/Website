@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    min-height: 100vh;
+    background-image: url("/assets/Fast-Food.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.contain{
+   background-color: transparent;
+   padding:0 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:12vh;
+}
+.logo{
+    height:80px;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width:60%;
+ 
+ 
+   
+}
+.navlinks a{
+    color:red;
+    font-size: 20px;
+
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: bisque;
+    color:red;
+     margin: 1.2rem 0;
+}
+.btn a {
+    font-size: 30px;
+}
+
+
+
+
+
+
+.navlinks li::after{
+    content: "";
+    display: block;
+    background-color: red;
+    height: 2px;
+    width: 0;
+    transition:transform 300px;
+   
+}
+.navlinks li:hover::after{
+    width:100%;
+}
+.ham{
+    display: none;
+    cursor:pointer;
+}
+.text-center{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   text-align: center ;
+  
+}
+.text-center h1{
+    margin: 1.8rem 0;
+    font-size: 80px;
+  
+    color: red;
+     
+}
+
+
+.text-center h3{
+    font-size: 30px;
+    color:gold;
+    font-weight: bolder;
+      margin: 1.8rem 0;
+
+
+}
+.btn2{
+    text-decoration: none;
+    margin: 30px 20px;
+    color:red;
+    border-radius: 30px;
+    background-color: blanchedalmond;
+    padding: 10px 10px;
+    transition: all 2s ease;
+
+}
+.btn2:hover{
+    background-color: transparent;
+}
+    
+
+@media screen and (max-width: 800px){
+.text-center{
+    width: 100%; 
+}
+}
+
+
+@media screen and (max-width:600px){
+
+.navlinks{
+    /* display: none; */
+    position: absolute;
+    flex-direction: column;
+    background-color:transparent;
+    right:0; 
+    top:12vh;
+    height:50vh;
+    padding: 1rem 0;
+    width:100%;
+     
+}
+.ham{
+    display: block 
+}
+
+}
+    
+

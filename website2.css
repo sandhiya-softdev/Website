@@ -6,7 +6,8 @@
 .container{
     width:100%;
     height:700px;
-    background-color: rgb(0,128,255);
+    background-color:black;
+    overflow: hidden;
 }
 .content{
     width: 100%;
@@ -23,6 +24,9 @@ nav li{
     color:white;
     font-size: 20px;
 }
+nav li:hover{
+    color: #e63946;
+}
 .content a{
     color: #e63946;
     text-decoration: none;
@@ -34,15 +38,19 @@ nav li{
 h2{
     color:white;
 }
+.letter p{
+    color:white;
+}
 .main{
     position: relative;
 }
 .main img{
     width: 800px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-  }
+    top:-50%;
+    left:30%;
+    transform: translateX(250px);
+}
   .letter{
    position: relative;
    top: 25%;
@@ -59,13 +67,14 @@ h2{
     border:2px solid black;
     padding: 10px 30px;
     color:white;
-    background-color:#e63946
+    background-color:lightcoral;
   }
   .container1{
   
   width: 100%;
   min-height: 200px;
   background-color: aqua;
+  overflow: hidden;
 
   
   
@@ -95,9 +104,67 @@ h2{
   cursor: pointer;
   text-decoration: none;
 }
+.container3{
+        background:#ffcc66;
+    width:100%;
+    height: 600px;
+}
+.in{
+    position: relative;
+    top: 25%;
+    left:35%;
+    font-size: 70px;
+
+}
 
 
+
+.cook{
+    height:600px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.th{
+    display: inline;
+}
+.container4{
+    width:100%;
+    height: 400px;
+    overflow: hidden;
+}
+.class{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+.class h1{
+    font-size: 60px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
    
+}
+.end{
+    margin: 30px 50px;
+    color:white;
+  
+}
+.end1 h2{
+    color:white;
+}
+
+    
+
+
   
     
   
