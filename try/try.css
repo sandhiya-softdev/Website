@@ -56,3 +56,7 @@ span{
     color: var(--main-color);
 
 }
+.h-right{
+    display: flex;
+    
+}
