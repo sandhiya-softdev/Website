@@ -7,9 +7,52 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-
-    
 }
 body{
-    color: var
+    color: var(  --text-color);
+    background: var(--bg-color);
+}
+:root{
+    --text-color:#fff;
+    --bg-color:#000;
+    --main-color:#ffa3a3;
+
+    --h1-font: 6rem;
+    --h2-font: 3rem;
+    --p-font: 1rem;
+}
+header{
+    position: fixed;
+    top:0;
+    right:0;
+    z-index:1000;
+    background: transparent;
+    padding: 27px 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .50s ease;
+}
+.logo{
+    font-size: 33px;
+    color: var(--text-color);
+    font-weight: 700;
+
+}
+span{
+    color: var(--main-color) ;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 15px 22px;
+    transition: all .50s ease;
+}
+.navbar a:hover{
+    color: var(--main-color);
+
 }
