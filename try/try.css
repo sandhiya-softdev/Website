@@ -26,6 +26,7 @@ header{
     top:0;
     right:0;
     z-index:1000;
+    width: 100%;
     background: transparent;
     padding: 27px 17%;
     display: flex;
@@ -58,5 +59,34 @@ span{
 }
 .h-right{
     display: flex;
+    align-items: center;
     
+}
+.h-right a:first-child{
+    color: var(--text-color);
+    font-size: var(--p-font);
+    margin-right: 20px;
+
+}
+.h-right a{
+    vertical-align: middle;
+    font-size: 20px;
+    color: var(--text-color);
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-right: 5px;
+    transition: all .50s ease;
+}
+.h-right a:hover{
+    color: var(--main-color);
+    transform: translateY(-3px);
+
+}
+#menu-icon{
+    color: var(--text-color);
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1001;
+    display: none;
+
 }
